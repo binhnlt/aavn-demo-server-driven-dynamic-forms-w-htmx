@@ -87,6 +87,11 @@ php_errors.log
 vendor/
 
 #-------------------------
+# Writable directory
+#-------------------------
+writable/**
+
+#-------------------------
 # IDE / Development Files
 #-------------------------
 
