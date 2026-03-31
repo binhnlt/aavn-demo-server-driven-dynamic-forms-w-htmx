@@ -27,7 +27,7 @@ RUN chmod +x /usr/local/bin/composer
 # Install & configure php modules
 RUN curl -sSLf -o /usr/local/bin/install-php-extensions https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions && \
     chmod +x /usr/local/bin/install-php-extensions && \
-    install-php-extensions gd zip pdo_mysql apcu mysqli bcmath soap intl ldap imap tidy redis gmp exif calendar xmlrpc xsl pcntl sockets opcache
+    install-php-extensions gd zip pdo_mysql apcu mysqli bcmath soap intl ldap imap tidy redis gmp exif calendar xmlrpc xsl pcntl sockets opcache sqlite3
 
 # Enable Apache modules
 RUN a2enmod rewrite headers ssl expires deflate mime setenvif ssl http2
