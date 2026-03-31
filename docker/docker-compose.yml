@@ -1,0 +1,14 @@
+name: ${DOCKER_COMPOSE_NAME:-aavnhtmxdemo}
+
+services:
+  website:
+    build:
+      context: website/
+      dockerfile: Dockerfile
+      target: base
+      args:
+        - XDEBUG_ENABLE=${XDEBUG_ENABLE:-0}
+    volumes:
+      - ../src-website:/var/www/html
+    ports:
+      - "${WEBSITE_PORT:-8023}:443"
