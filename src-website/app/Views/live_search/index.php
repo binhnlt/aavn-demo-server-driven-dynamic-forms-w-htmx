@@ -51,7 +51,7 @@
     <div class="col-lg-4">
         <div class="card bg-dark text-white">
             <div class="card-header border-secondary">
-                <small class="text-muted">HTML — that's all it takes</small>
+                <small class="">HTML — that's all it takes</small>
             </div>
             <div class="card-body">
                 <pre class="text-success small"><code>&lt;input
@@ -64,8 +64,8 @@
   hx-indicator="#spinner"
 &gt;</code></pre>
                 <hr class="border-secondary">
-                <p class="small text-muted mb-1"><strong class="text-white">hx-trigger breakdown:</strong></p>
-                <ul class="small text-muted">
+                <p class="small mb-1"><strong class="text-white">hx-trigger breakdown:</strong></p>
+                <ul class="small ">
                     <li><code class="text-warning">keyup changed</code> — only fires when value actually changes</li>
                     <li><code class="text-warning">delay:300ms</code> — debounce, avoids request spam</li>
                     <li><code class="text-info">hx-indicator</code> — auto-shows spinner during request</li>

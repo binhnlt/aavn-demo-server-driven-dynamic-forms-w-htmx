@@ -21,7 +21,7 @@
             <div class="card-header bg-danger text-white">
                 <i class="bi bi-x-circle me-1"></i> Without hx-boost (Full reload)
             </div>
-            <div class="card-body small text-muted">
+            <div class="card-body small ">
                 <ul class="mb-0">
                     <li>Browser reloads the entire page</li>
                     <li>White flash on screen</li>
@@ -37,7 +37,7 @@
             <div class="card-header bg-success text-white">
                 <i class="bi bi-check-circle me-1"></i> With hx-boost (Smooth swap)
             </div>
-            <div class="card-body small text-muted">
+            <div class="card-body small ">
                 <ul class="mb-0">
                     <li>HTMX fetches content via AJAX</li>
                     <li>Only the <code>&lt;body&gt;</code> is swapped</li>
@@ -66,7 +66,7 @@
     <div class="col-lg-6">
         <div class="card bg-dark text-white">
             <div class="card-header border-secondary">
-                <small class="text-muted">Just add 1 attribute</small>
+                <small class="">Just add 1 attribute</small>
             </div>
             <div class="card-body">
                 <pre class="text-success small mb-3"><code>&lt;!-- Before hx-boost --&gt;
@@ -91,7 +91,7 @@
 
         <div class="card bg-dark text-white mt-3">
             <div class="card-header border-secondary">
-                <small class="text-muted">hx-boost on the nav (whole app)</small>
+                <small class="">hx-boost on the nav (whole app)</small>
             </div>
             <div class="card-body">
                 <pre class="text-info small"><code>&lt;nav hx-boost="true"&gt;
@@ -104,7 +104,7 @@
   &lt;!-- All links in nav
     become SPA-like --&gt;
 &lt;/nav&gt;</code></pre>
-                <p class="small text-muted mb-0 mt-2">This demo's navbar uses <code>hx-boost="true"</code>. Notice the URL changes but there's no full reload.</p>
+                <p class="small  mb-0 mt-2">This demo's navbar uses <code>hx-boost="true"</code>. Notice the URL changes but there's no full reload.</p>
             </div>
         </div>
     </div>

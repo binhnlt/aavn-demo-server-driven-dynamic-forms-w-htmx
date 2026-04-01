@@ -21,10 +21,10 @@
     <div class="col-lg-4 d-none d-lg-block">
         <div class="card bg-dark text-white sticky-top" style="top: 70px;">
             <div class="card-header border-secondary">
-                <small class="text-muted">Sentinel Pattern</small>
+                <small class="">Sentinel Pattern</small>
             </div>
             <div class="card-body">
-                <p class="small text-muted mb-3">The last card carries <code class="text-warning">hx-trigger="revealed"</code>. When it enters the viewport, HTMX automatically loads the next page.</p>
+                <p class="small  mb-3">The last card carries <code class="text-warning">hx-trigger="revealed"</code>. When it enters the viewport, HTMX automatically loads the next page.</p>
                 <pre class="text-success small mb-0"><code>&lt;!-- Last card on page N --&gt;
 &lt;div
   hx-get="/infinite-scroll

@@ -55,7 +55,7 @@
     <div class="col-lg-5">
         <div class="card bg-dark text-white">
             <div class="card-header border-secondary">
-                <small class="text-muted">HTTP verbs in HTMX</small>
+                <small class="">HTTP verbs in HTMX</small>
             </div>
             <div class="card-body">
                 <table class="table table-dark table-sm small">
@@ -66,22 +66,22 @@
                         <tr>
                             <td>Add</td>
                             <td><code class="text-success">hx-post</code></td>
-                            <td><code class="text-muted">afterbegin</code></td>
+                            <td><code class="">afterbegin</code></td>
                         </tr>
                         <tr>
                             <td>Edit</td>
                             <td><code class="text-warning">hx-get</code> → <code class="text-success">hx-post</code></td>
-                            <td><code class="text-muted">outerHTML</code></td>
+                            <td><code class="">outerHTML</code></td>
                         </tr>
                         <tr>
                             <td>Delete</td>
                             <td><code class="text-danger">hx-post /delete</code></td>
-                            <td><code class="text-muted">outerHTML ""</code></td>
+                            <td><code class="">outerHTML ""</code></td>
                         </tr>
                         <tr>
                             <td>Toggle</td>
                             <td><code class="text-info">hx-post /toggle</code></td>
-                            <td><code class="text-muted">outerHTML</code></td>
+                            <td><code class="">outerHTML</code></td>
                         </tr>
                     </tbody>
                 </table>

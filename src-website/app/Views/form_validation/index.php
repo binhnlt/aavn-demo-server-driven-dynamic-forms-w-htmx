@@ -21,7 +21,7 @@
     <div class="col-lg-5">
         <div class="card bg-dark text-white">
             <div class="card-header border-secondary">
-                <small class="text-muted">HTML — form with HTMX</small>
+                <small class="">HTML — form with HTMX</small>
             </div>
             <div class="card-body">
                 <pre class="text-success small mb-3"><code>&lt;form
@@ -31,15 +31,15 @@
   ...
 &lt;/form&gt;</code></pre>
                 <hr class="border-secondary">
-                <p class="small text-muted mb-2"><strong class="text-white">On submit:</strong></p>
-                <ul class="small text-muted">
+                <p class="small  mb-2"><strong class="text-white">On submit:</strong></p>
+                <ul class="small ">
                     <li>HTMX POSTs form data to server</li>
                     <li>Server validates — if invalid, returns <code class="text-warning">_form.php</code> with errors</li>
                     <li>If valid, returns <code class="text-info">_success.php</code></li>
                     <li><code class="text-warning">hx-swap="outerHTML"</code> replaces the entire <code>#form-container</code></li>
                 </ul>
                 <hr class="border-secondary">
-                <p class="small text-muted mb-1"><strong class="text-white">Server PHP:</strong></p>
+                <p class="small  mb-1"><strong class="text-white">Server PHP:</strong></p>
                 <pre class="text-info small"><code>if (!$this->validate($rules)) {
     return view('_form', [
         'errors' => $this->validator

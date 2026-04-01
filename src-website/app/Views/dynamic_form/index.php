@@ -17,7 +17,7 @@
         <div class="card border-primary h-100">
             <div class="card-body">
                 <h6 class="card-title text-primary"><i class="bi bi-eye me-1"></i>Layer 1 — UI State</h6>
-                <p class="card-text small text-muted">
+                <p class="card-text small">
                     Select Platform → Language dropdown appears.<br>
                     Select Language → Framework dropdown appears.<br>
                     Select Framework → Setup card appears.<br>
@@ -31,7 +31,7 @@
         <div class="card border-success h-100">
             <div class="card-body">
                 <h6 class="card-title text-success"><i class="bi bi-check-circle me-1"></i>Layer 2 — Validation State</h6>
-                <p class="card-text small text-muted">
+                <p class="card-text small ">
                     Each child field only receives <code>required</code> once its parent is chosen. The server renders the attribute dynamically — browser validation works automatically.
                 </p>
                 <code class="small">required — rendered by server</code>
@@ -42,7 +42,7 @@
         <div class="card border-warning h-100">
             <div class="card-body">
                 <h6 class="card-title text-warning"><i class="bi bi-lightning me-1"></i>Layer 3 — Interaction Mode</h6>
-                <p class="card-text small text-muted">
+                <p class="card-text small ">
                     Email validates immediately on <code>blur</code>. The full form validates on submit. Two modes, one server, no duplication.
                 </p>
                 <code class="small">hx-trigger="blur"</code>
@@ -134,7 +134,7 @@
     <div class="col-lg-5">
         <div class="card bg-dark text-white">
             <div class="card-header border-secondary d-flex justify-content-between align-items-center">
-                <small class="text-muted">The chain — HTML only, zero JS</small>
+                <small class="">The chain — HTML only, zero JS</small>
                 <span class="badge bg-success">Self-propagating</span>
             </div>
             <div class="card-body small">
