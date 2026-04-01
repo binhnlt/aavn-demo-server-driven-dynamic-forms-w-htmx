@@ -1,7 +1,7 @@
 <div class="row mb-4">
     <div class="col">
         <h1 class="display-5 fw-bold">HTMX Demo</h1>
-        <p class="lead text-muted">6 demos showcasing HTMX features with CodeIgniter 4 + Docker</p>
+        <p class="lead text-muted">6 demos showcasing HTMX features</p>
         <hr>
     </div>
 </div>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('live-search') ?>" class="btn btn-primary w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('live-search') ?>" class="btn btn-primary w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('dynamic-form') ?>" class="btn btn-success w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('dynamic-form') ?>" class="btn btn-success w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('todo') ?>" class="btn btn-warning w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('todo') ?>" class="btn btn-warning w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('infinite-scroll') ?>" class="btn btn-danger w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('infinite-scroll') ?>" class="btn btn-danger w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('form-validation') ?>" class="btn btn-info w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('form-validation') ?>" class="btn btn-info w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="card-footer bg-transparent">
-                <a href="<?= base_url('hx-boost') ?>" class="btn btn-secondary w-100">View Demo →</a>
+                <a hx-boost="true" href="<?= base_url('hx-boost') ?>" class="btn btn-secondary w-100">View Demo →</a>
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@
         <div class="alert alert-dark d-flex align-items-start gap-3">
             <i class="bi bi-info-circle-fill fs-5 mt-1 flex-shrink-0"></i>
             <div>
-                <strong>Presenter tip:</strong> Open DevTools → Network tab before each demo so the audience can see the HTMX requests and the HTML fragments returned by the server.
+                <strong>Tip:</strong> Open DevTools → Network tab before each demo so the audience can see the HTMX requests and the HTML fragments returned by the server.
             </div>
         </div>
     </div>
